@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#text{
+    height: 1.8rem;
+    width: 30rem;
+    resize: none;
+    padding: 0.2rem;
+     font-size: 1.2rem;
+     line-height: 150%;
+     font-family: 'Times New Roman', Times, serif;
+     margin-left: 3rem;
+     border: none;
+     margin-right: 0.2rem;
+     outline: none;
+}
+.add{
+height: 2.2rem;
+background: #ffffff;
+border: none;
+width: 2.3rem;
+font-weight: 550;
+display: flex;
+justify-content: center;
+font-size: 1rem;
+align-items: center;
+display: inline-block;
+cursor: pointer;
+
+}
+.container{
+display: flex;
+justify-content: center;
+}
+*{
+padding: 0;
+margin: 0;
+font-family: 'sans seriff';
+}
+body{
+margin: 1.5rem;
+background: rgb(218, 218, 221);
+}
+.toDoList{
+padding: 0.8rem;
+display: flex;
+justify-content: center;
+font-size: 3rem;
+
+}
+#uList{
+margin: 1rem;
+margin-left: 5rem;
+list-style-type: decimal;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#uList li{
+font-size: 1.3rem;
+padding: 0.3rem;
+width: 70%;
+}
+#uList li div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+#uList li div button{
+background-color: red;
+color: white;
+height: 2rem;
+width: 2rem;
+border: none;
+cursor: pointer;
+}
+#uList li:nth-child(odd){
+background-color: grey;
+}
+#uList li:nth-child(even){
+background-color: rgb(177, 169, 169);
+}
